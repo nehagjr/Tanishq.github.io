@@ -1,0 +1,256 @@
+*
+{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+   
+}
+#wrapper
+{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.top1
+{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2e9e9;
+    padding-left: 70px;
+    padding-right: 70px;
+    position: sticky; 
+    top: 0;
+    z-index: 2;
+
+}
+.top1 #logo img
+{
+    mix-blend-mode: darken;
+    margin-top: 10px;
+}
+.top1 input
+{
+    width: 850px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+#short-menu-data
+{
+    display: flex;  
+    font-size: 13px;
+   color: #832729;
+    
+}
+#short-menu-data p
+{
+    padding-left: 11px;
+}
+#short-menu-logo img
+{
+    height: 23px;
+    width: 23px;
+    margin-left: 38px;
+ 
+}
+
+
+.top2
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+    
+}
+.top2 p
+{
+    margin-top: 20px;
+    font-size: 14px;  
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+   
+}
+.drop a
+{
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+.dropbtn
+{
+    position: relative;
+}
+.content
+{
+    position: absolute;
+    display: none;  
+    margin-top: 21px;
+    left: -50px;
+   
+}
+.content table
+{
+    line-height: 1.8;
+    background-color: white;
+    box-shadow: 0px 6px 13px 0px  rgba(87, 22, 22,0.4);
+    padding: 20px ;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    position: relative;
+    z-index: 2;
+    
+}
+.dropbtn:hover .content
+{
+    display: block;
+}
+.top3
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 1px solid #832729;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.top3 p
+{
+    margin-top: 22px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: #832729;
+}
+
+.top4
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;  
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.1);   
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky; 
+    z-index: 1;
+    background-color: white;
+    top: 70px;
+}
+.top4 p
+{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 14px; 
+    color: #832729;
+}
+.top5
+{
+    display: flex;  
+    margin-left: 90px;  
+    margin-top: 1.5rem;
+}
+.top5 p
+{
+    
+    
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    color: #310708;  
+}
+.top5 p a
+{
+    color: rgb(39, 37, 37);
+    text-decoration: none; 
+}
+.top5 h5
+{
+    
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    color: #310708;
+    padding-top: 0.1313rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.top6
+{
+    display: flex;
+    margin-left: 90px;     
+    margin-top: 1rem;
+}
+
+.top6 h1
+{
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
+#top-btn
+{
+    margin-left: 90px;  
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+#compare button
+{
+    width: 198px;
+    height: 60px;
+    border-radius: .3125rem;
+    border: .0625rem solid #46433c;
+    background-color: white;
+}
+#compare button a
+{
+    text-decoration: none;  
+    text-transform: uppercase;
+    font-size: .875rem;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.select
+{
+    padding-right: 90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #832729;
+    height: 60px;
+    width: 273px;
+    border-radius: 5px;
+    margin-right: 90px;
+}
+select
+{
+    outline: 0;
+    border: none;
+    height: 42px;
+    width: 176px;
+    margin-left: 95px;
+    position:relative;
+   font-size: 18px;  
+}
+.select option
+{
+    height: 283.6px;
+    width: 271.4px;
+}
+
+.select span{
+    position: absolute;
+    width: 85px;
+    height: 23px;
+    color: #832729;
+    font-size: .875rem;
+    margin-left: 10px;
+}

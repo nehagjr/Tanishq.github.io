@@ -1,0 +1,1 @@
+!function(){"use strict";$(document).ready((function(){$(".isMainBanner").each((function(){var n=$(this);"true"===n.val().toString()&&n.parent(".container-fluid").find(".carousel-item").css("margin-right","-100%")}))}))}();

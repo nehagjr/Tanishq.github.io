@@ -1,0 +1,27 @@
+.big img
+{
+    height: 470px;
+    width: 1510px;
+}
+.small
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+.small-data
+{
+    height: 400px;
+    width: 352px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+}
+.small img
+{
+    height: 350px;
+    width: 350px;
+   border-radius: 8px;
+    
+}

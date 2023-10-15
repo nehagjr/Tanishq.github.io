@@ -1,0 +1,1 @@
+!function(){"use strict";$(document).ready((function(){var n=$(".display-one"),d=n.children.length;if(d>1)for(var e=1;e<d;e++){n.children()[e].classList.add("d-none")}}))}();
